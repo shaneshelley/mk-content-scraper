@@ -1,0 +1,45 @@
+{
+    "promos": [
+        {
+            "style": "promo women right overlay white",
+            "url": "#",
+            "image": "/img/MKBusiness/en-US/refreshes/eleven-ten/assets/landing/LP_ACCESSORIES_1.jpg",
+            "captions": [
+                {
+                    "style": "caption right",
+                    "slugText": null,
+                    "headline": {
+                        "style": "headline",
+                        "rows": [
+                            "<em>Arm</em>",
+                            "<em>Candy</em>"
+                        ]
+                    },
+                    "text": "            Bangles in metallic<br>            hues are the best<br>            in gilded glamour.          ",
+                    "cta": [
+                        "Shop Bracelets",
+                        "\n                Shop All Party\n                Dressing\n              "
+                    ]
+                }
+            ]
+        },
+        {
+            "style": "promo women overlay white",
+            "url": "#",
+            "image": "/img/MKBusiness/en-US/refreshes/eleven-ten/assets/landing/LP_ACCESSORIES_2.jpg",
+            "captions": [
+                {
+                    "style": "caption",
+                    "slugText": null,
+                    "headline": {
+                        "rows": []
+                    },
+                    "text": "            Our top gift picks for everyone in your life.<br>            Just because the perfect present is always personal.          ",
+                    "cta": [
+                        "\n                Shop the Gift Guide\n              "
+                    ]
+                }
+            ]
+        }
+    ]
+}

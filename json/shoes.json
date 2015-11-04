@@ -1,0 +1,111 @@
+{
+    "promos": [
+        {
+            "style": "promo women overlay left white",
+            "url": "#",
+            "image": "/img/MKBusiness/en-US/refreshes/eleven-ten/assets/landing/LP_SHOES_1.jpg",
+            "captions": [
+                {
+                    "style": "caption",
+                    "slugText": null,
+                    "headline": {
+                        "style": "headline",
+                        "rows": [
+                            "<em>On The</em>",
+                            "<em>Town</em>"
+                        ]
+                    },
+                    "text": "              A curated collection<br>              of shoes for dancing<br>              the night away.            ",
+                    "cta": [
+                        "Shop Party Shoes ",
+                        "Shop All Shoes "
+                    ]
+                }
+            ]
+        },
+        {
+            "style": "promo women mmh stacked",
+            "url": "#",
+            "image": "/img/MKBusiness/en-US/refreshes/eleven-ten/assets/landing/LP_SHOES_2.jpg",
+            "captions": [
+                {
+                    "style": "caption",
+                    "slugText": null,
+                    "headline": {
+                        "style": "headline",
+                        "rows": [
+                            "MICHAEL&#x2019;S MUST-HAVES"
+                        ]
+                    },
+                    "text": "              The pump: the stylish<br>              choice from office to<br>              after-hours (and beyond).            ",
+                    "cta": [
+                        "Shop Pumps ",
+                        "Shop All Must-Haves "
+                    ]
+                }
+            ]
+        },
+        {
+            "style": "promo women overlay white",
+            "url": "#",
+            "image": "/img/MKBusiness/en-US/refreshes/eleven-ten/assets/landing/LP_SHOES_3.jpg",
+            "captions": [
+                {
+                    "style": "caption",
+                    "slugText": null,
+                    "headline": {
+                        "rows": []
+                    },
+                    "text": "            Our top gift picks for everyone in your life.<br>            Just because the perfect present is always personal.          ",
+                    "cta": [
+                        "\n                Shop the Gift Guide\n              "
+                    ]
+                }
+            ]
+        },
+        {
+            "style": "promo women left overlay",
+            "url": "#",
+            "image": "/img/MKBusiness/en-US/refreshes/eleven-ten/assets/landing/LP_SHOES_4.jpg",
+            "captions": [
+                {
+                    "style": "caption pure-u-13-24",
+                    "slugText": null,
+                    "headline": {
+                        "style": "headline large",
+                        "rows": [
+                            "<em>We Love</em>",
+                            "<em>Lucy</em>"
+                        ]
+                    },
+                    "text": "            Build your look from<br>            the ground up with our<br>            streamlined, block-heeled<br>            Lucy ankle boot.          ",
+                    "cta": [
+                        "Shop Ankle Boots",
+                        "Shop Boots"
+                    ]
+                }
+            ]
+        },
+        {
+            "style": "promo collection white overlay left",
+            "url": "#",
+            "image": "/img/MKBusiness/en-US/refreshes/eleven-ten/assets/landing/LP_SHOES_5.jpg",
+            "captions": [
+                {
+                    "style": "caption",
+                    "slugText": null,
+                    "headline": {
+                        "style": "headline",
+                        "rows": [
+                            "Graphic Glamour"
+                        ]
+                    },
+                    "text": "            The chunky, strappy platform sandal is<br>            the season&apos;s take on deco sportif.          ",
+                    "cta": [
+                        "Shop Shoes"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,363 @@
+{
+  "promos": [{
+    "type": "women",
+    "style": "women right",
+    "url": "#",
+    "image": "/images/samples/hp-carousel-1.jpg",
+    "caption": {
+      "style": "pure-u-12-24",
+      "slugText": "Exclusively Ours",
+      "headline": {
+        "style": null,
+        "text1": "<em>Timeless</em>",
+        "text2": "Beauty"
+      },
+      "text": "Quilted, color-blocked and completely <br>sophisticated. Meet the latest Selma. <br>Available exclusively at Michael Kors.*"
+    }
+  }, {
+    "type": "women",
+    "style": "women right",
+    "url": "#",
+    "image": "/images/samples/hp-carousel-2.jpg",
+    "caption": {
+      "style": "pure-u-10-24",
+      "slugText": null,
+      "headline": {
+        "style": null,
+        "text1": "Urban",
+        "text2": "<em>Luxe</em>"
+      },
+      "text": "Black and white anc chic all over: <br>of-the-moment maxi dresses and <br>more, all with a modern edge"
+    }
+  }, {
+    "type": "women",
+    "style": "women",
+    "url": "#",
+    "image": "/images/samples/hp-carousel-3.jpg",
+    "caption": {
+      "style": "pure-u-9-24",
+      "slugText": null,
+      "headline": {
+        "style": "large",
+        "text1": "Gold",
+        "text2": "<em>Rush</em>"
+      },
+      "text": "A little flash goes a long way"
+    }
+  }, {
+    "type": "women",
+    "style": "women",
+    "url": "#",
+    "image": "/images/samples/hp-promo-1.jpg",
+    "caption": {
+      "style": "pure-u-10-24",
+      "slugText": "Destination Kors",
+      "headline": {
+        "style": "style-1 small",
+        "text1": "<em>Monochrome</em>",
+        "text2": "Moment"
+      },
+      "text": "Black and white is oh-so right."
+    }
+  }, {
+    "type": "women",
+    "style": "women right",
+    "url": "#",
+    "image": "/images/samples/hp-promo-2.jpg",
+    "caption": {
+      "style": "pure-u-11-24",
+      "slugText": null,
+      "headline": {
+        "style": "style-2 small",
+        "text1": "<em>Modern Classic:</em>",
+        "text2": "The Mule"
+      },
+      "text": "It&apos;s what&apos;s chic right now."
+    }
+  }, {
+    "type": "women",
+    "style": "women",
+    "url": "#",
+    "image": "/images/samples/hp-promo-3.jpg",
+    "caption": {
+      "style": "pure-u-12-24",
+      "slugText": "Spotlight on: Michael Kors Collection",
+      "headline": {
+        "style": null,
+        "text1": "The Cary",
+        "text2": null
+      },
+      "text": "Get a handle on hi-definition glamour."
+    }
+  }, {
+    "type": "men",
+    "style": "men center",
+    "url": "#",
+    "image": "/images/samples/men-1.jpg",
+    "caption": {
+      "style": "pure-u-12-24",
+      "slugText": null,
+      "headline": {
+        "style": "small",
+        "text1": "Happy Hour",
+        "text2": null
+      },
+      "text": "Because time is a luxury."
+    }
+  }, {
+    "type": "women",
+    "style": "women right",
+    "url": "#",
+    "image": "/images/samples/accessories-1.jpg",
+    "caption": {
+      "style": "pure-u-10-24",
+      "slugText": null,
+      "headline": {
+        "style": null,
+        "text1": "<em>Blue Note</em>",
+        "text2": null
+      },
+      "text": "Dial up the drama with flash <br>extras in eye-catching azure."
+    }
+  }, {
+    "type": "women",
+    "style": "women",
+    "url": "#",
+    "image": "/images/samples/accessories-2.jpg",
+    "caption": {
+      "style": "pure-u-10-24",
+      "slugText": null,
+      "headline": {
+        "style": null,
+        "text1": "<em>Black is</em>",
+        "text2": "Back"
+      },
+      "text": "Jewelry gets a jet set touch in sleek <br>black with sparkling pav&#xE9; accents."
+    }
+  }, {
+    "type": "women",
+    "style": "women right",
+    "url": "#",
+    "image": "/images/samples/hp-carousel-1.jpg",
+    "caption": {
+      "style": "pure-u-10-24",
+      "slugText": "Exclusively Ours",
+      "headline": {
+        "style": null,
+        "text1": "<em>Timeless</em>",
+        "text2": "Beauty"
+      },
+      "text": "Color-blocking + quilting = classic chic. <br>Meet the latest Selma. Available <br>exclusively at Michael Kors.*"
+    }
+  }, {
+    "type": "women",
+    "style": "women",
+    "url": "#",
+    "image": "/images/samples/hp-promo-3.jpg",
+    "caption": {
+      "style": "pure-u-12-24",
+      "slugText": "Spotlight on: Michael Kors Collection",
+      "headline": {
+        "style": null,
+        "text1": "The Cary",
+        "text2": null
+      },
+      "text": "Get a handle on hi-definition glamour."
+    }
+  }, {
+    "type": "women",
+    "style": "women right",
+    "url": "#",
+    "image": "/images/samples/bags-3.jpg",
+    "caption": {
+      "style": "pure-u-10-24",
+      "slugText": null,
+      "headline": {
+        "style": null,
+        "text1": "<em>Oh, Susannah!</em>",
+        "text2": null
+      },
+      "text": "The Susannah Tote: the versatile, <br>every-season carryall that&apos;s <br>all about understated luxury."
+    }
+  }, {
+    "type": "women",
+    "style": "women right",
+    "url": "#",
+    "image": "/images/samples/gifts-1.jpg",
+    "caption": {
+      "style": "pure-u-10-24",
+      "slugText": null,
+      "headline": {
+        "style": null,
+        "text1": "<em>Present</em>",
+        "text2": "Perfect"
+      },
+      "text": "Chic sunglasses and <br>statement-making watches <br>guaranteed to make a splash."
+    }
+  }, {
+    "type": "women",
+    "style": "women right",
+    "url": "#",
+    "image": "/images/samples/gifts-2.jpg",
+    "caption": {
+      "style": "pure-u-10-24",
+      "slugText": null,
+      "headline": {
+        "style": null,
+        "text1": "<em>Gift</em>",
+        "text2": "<em>Cards</em>"
+      },
+      "text": "The gift that&apos;s guaranteed <br>to delight: choose between <br>a classic gift card and an <br>e-gift card."
+    }
+  }, {
+    "type": "men",
+    "style": "men center",
+    "url": "#",
+    "image": "/images/samples/men-1.jpg",
+    "caption": {
+      "style": "pure-u-12-24",
+      "slugText": null,
+      "headline": {
+        "style": "small",
+        "text1": "Happy Hour",
+        "text2": null
+      },
+      "text": "Because time is a luxury."
+    }
+  }, {
+    "type": "men",
+    "style": "men right",
+    "url": "#",
+    "image": "/images/samples/men-2.jpg",
+    "caption": {
+      "style": "pure-u-12-24",
+      "slugText": null,
+      "headline": {
+        "style": "small",
+        "text1": "The Outer Limit",
+        "text2": null
+      },
+      "text": "Easy essentials for the new season (and beyond)."
+    }
+  }, {
+    "type": "men",
+    "style": "men left",
+    "url": "#",
+    "image": "/images/samples/men-3.jpg",
+    "caption": {
+      "style": "pure-u-12-24",
+      "slugText": "Style Essential:",
+      "headline": {
+        "style": "small",
+        "text1": "The Weekender Bag",
+        "text2": null
+      },
+      "text": "All you need to carry everything, everywhere."
+    }
+  }, {
+    "type": "women",
+    "style": "women right",
+    "url": "#",
+    "image": "/images/samples/shoes-1.jpg",
+    "caption": {
+      "style": "pure-u-11-24",
+      "slugText": null,
+      "headline": {
+        "style": "headline style-2 small",
+        "text1": "<em>Modern Classic:</em>",
+        "text2": "The Mule"
+      },
+      "text": "It&apos;s what&apos;s chic right now."
+    }
+  }, {
+    "type": "women",
+    "style": "women",
+    "url": "#",
+    "image": "/images/samples/shoes-2.jpg",
+    "caption": {
+      "style": "pure-u-10-24",
+      "slugText": "Spotlight on: Michael Kors Collection",
+      "headline": {
+        "style": null,
+        "text1": "<em>The Tuxedo</em>",
+        "text2": "<em>Sneaker</em>"
+      },
+      "text": "Tomboy glamour <br>steps into the spotlight."
+    }
+  }, {
+    "type": "women",
+    "style": "women",
+    "url": "#",
+    "image": "/images/samples/watches-1.jpg",
+    "caption": {
+      "style": "pure-u-9-24",
+      "slugText": null,
+      "headline": {
+        "style": "style-3",
+        "text1": "<em>Strike</em>",
+        "text2": "Gold"
+      },
+      "text": "Add a little polish to summer <br>style with the Bradshaw in a rich <br>gold-and-black color combo."
+    }
+  }, {
+    "type": "women",
+    "style": "women right",
+    "url": "#",
+    "image": "/images/samples/watches-2.jpg",
+    "caption": {
+      "style": "pure-u-8-24",
+      "slugText": "Office Hours",
+      "headline": {
+        "style": "x-small",
+        "text1": "<em>Girl&apos;s Guide</em>",
+        "text2": "<em>to Watches</em>"
+      },
+      "text": "Work polished glamour into <br>your weekday wardrobe with <br>the silver-tone Kinley."
+    }
+  }, {
+    "type": "men",
+    "style": "men left",
+    "url": "#",
+    "image": "/images/samples/watches-3.jpg",
+    "caption": {
+      "style": "pure-u-12-24",
+      "slugText": null,
+      "headline": {
+        "style": "small",
+        "text1": "Happy Hour",
+        "text2": null
+      },
+      "text": "Because time is a luxury."
+    }
+  }, {
+    "type": "women",
+    "style": "women hero right",
+    "url": "#",
+    "image": "/images/samples/hp-carousel-2.jpg",
+    "caption": {
+      "style": "pure-u-10-24",
+      "slugText": "Michael Michael Kors",
+      "headline": {
+        "style": null,
+        "text1": "Urban",
+        "text2": "<em>Luxe</em>"
+      },
+      "text": "Black and white anc chic all over: <br>of-the-moment maxi dresses and <br>more, all with a modern edge"
+    }
+  }, {
+    "type": "women",
+    "style": "women",
+    "url": "#",
+    "image": "/images/samples/women-2.jpg",
+    "caption": {
+      "style": "pure-u-10-24",
+      "slugText": "Michael Kors Collection",
+      "headline": {
+        "style": null,
+        "text1": "<em>Graphic</em>",
+        "text2": "Romance"
+      },
+      "text": "It&apos;s here: a new collection featuring <br>bold patterns and feminine silhouettes <br>perfectly fit for the summer months."
+    }
+  }]
+}
