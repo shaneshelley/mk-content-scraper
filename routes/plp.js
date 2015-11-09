@@ -9,16 +9,48 @@ var router = express.Router();
 // define the home page route
 router.get('/', function(req, res) {
   // View all bags
-	url = 'http://www.michaelkors.com/women/michael-michael-kors-clothing/dresses/_/N-28ei';
+	var mainUrl = 'http://www.michaelkors.com/women/michael-michael-kors-clothing/dresses/_/N-28ei';
 
-	request(url, function(error, response, html){
+  /* Product Grid */
+  var scrapeProducts = function(name, $){
+    console.log("name: " + name);
+    var productsJSON = {
+      products		: []
+    };
+
+    $('.products-list').filter(function(){
+      var $data = $(this);
+      var productsHTML = $data.find('li');
+
+      productsJSON.filterLabel = name;
+
+      _.each(productsHTML, function(product) {
+        var tmp = {};
+        tmp.url   					= $(product).find('.product_panel a').attr('href');
+        tmp.line 						= $(product).find('.prod_name span').text();
+        tmp.name  					= $(product).find('.prod_name h6').text();
+        tmp.image 					= $(product).find('.product_panel a img').attr('src');
+        tmp.price_current 	= $(product).find('.now_price').text().trim();
+        tmp.price_original 	= $(product).find('.was_price').text().trim();
+
+        productsJSON.products.push(tmp);
+      })
+    })
+
+    fs.writeFile('json/dresses/filters/' + name + '.json', JSON.stringify(productsJSON, null, 4), function(err){
+      console.log('File successfully written! - Check your project directory for the output.json file');
+    });
+  }
+
+
+	request(mainUrl, function(error, response, html){
+    var navJSON = {
+      categories: [],
+      filters  : []
+    }
+
 		if(!error){
 			var $ = cheerio.load(html);
-			var productsJSON = {
-				categories 	: [],
-				filters 		: [],
-				products		: []
-			};
 
 			/* Categories */
 			$('.category_list').filter(function(){
@@ -27,7 +59,7 @@ router.get('/', function(req, res) {
 
 				var categories = []
 				_.each(categoryHTML, function(category) {
-					productsJSON.categories.push($(category).attr('title'));
+					navJSON.categories.push($(category).attr('title'));
 				});
       })
 
@@ -41,38 +73,35 @@ router.get('/', function(req, res) {
 
 					tmp.property = $(filter).find('h5').text().trim();
 					tmp.values = [];
+
 					_.each($(filter).find('a'), function(value){
-						tmp.values.push($(value).attr('title'));
+            var valueObj = {}
+            valueObj.label = $(value).attr('title');
+            valueObj.url   = $(value).attr('href')
+						tmp.values.push(valueObj);
+
+            // get filter products
+            request(valueObj.url, function(error, response, html){
+              if (!error) {
+                var $$ = cheerio.load(html);
+
+              }
+            });
 					})
 
-					productsJSON.filters.push(tmp);
+					navJSON.filters.push(tmp);
 				});
 			});
 
-			/* Product Grid */
-			$('.products-list').filter(function(){
-        var $data = $(this);
-				var productsHTML = $data.find('li');
+      fs.writeFile('json/plp-dresses-nav.json', JSON.stringify(navJSON, null, 4), function(err){
+      	console.log('File successfully written! - Check your project directory for the output.json file');
+      });
 
-				_.each(productsHTML, function(product) {
-					var tmp = {};
-					tmp.url   					= $(product).find('.product_panel a').attr('href');
-					tmp.line 						= $(product).find('.prod_name span').text();
-					tmp.name  					= $(product).find('.prod_name h6').text();
-					tmp.image 					= $(product).find('.product_panel a img').attr('src');
-					tmp.price_current 	= $(product).find('.now_price').text().trim();
-					tmp.price_original 	= $(product).find('.was_price').text().trim();
-
-					productsJSON.products.push(tmp);
-				})
-      })
+      // get all products
+			scrapeProducts('view-all', $);
 		}
 
-		fs.writeFile('json/product-listing-page.json', JSON.stringify(productsJSON, null, 4), function(err){
-    	console.log('File successfully written! - Check your project directory for the output.json file');
-    });
-
-    res.send('Check your console!')
+		res.send('Check your console!')
 	})
 });
 

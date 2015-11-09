@@ -1,0 +1,13 @@
+{
+    "products": [
+        {
+            "url": "http://www.michaelkors.com/eyelet-dress/_/R-US_MU58VLA24B?color=0100&No=0",
+            "line": "MICHAEL Michael Kors",
+            "name": "Eyelet Dress",
+            "image": "http://michaelkors.scene7.com/is/image/MichaelKors/MU58VLA24B-0100_IS?$categoryMedium$",
+            "price_current": "now $52.50",
+            "price_original": "was $175.00"
+        }
+    ],
+    "filterLabel": "color-white"
+}

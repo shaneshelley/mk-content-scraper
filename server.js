@@ -5,15 +5,16 @@ var _				= require('lodash'),
 		cheerio = require('cheerio');
 
 /* Routes */
-var pdp 		= require('./routes/pdp'),
-		plp 		= require('./routes/plp'),
-		promos  = require('./routes/promos');
+var pdp 				= require('./routes/pdp'),
+		plp 				= require('./routes/plp'),
+		promos  		= require('./routes/promos'),
+		addFilters	= require('./routes/add-filters');
 
 var app     = express();
 
 app.use('/pdp', pdp);
 app.use('/plp', plp);
-
+app.use('/add-filters', addFilters);
 app.use('/promos', promos);
 
 app.listen('8081')

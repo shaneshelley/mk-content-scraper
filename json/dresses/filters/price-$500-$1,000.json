@@ -1,0 +1,29 @@
+{
+    "products": [
+        {
+            "url": "http://www.michaelkors.com/zip-front-leather-dress/_/R-US_MH58VYE1JL?No=-1&color=0001",
+            "line": "MICHAEL Michael Kors",
+            "name": "Zip-Front Leather Dress ",
+            "image": "http://michaelkors.scene7.com/is/image/MichaelKors/MH58VYE1JL-0001_IS?$categoryMedium$",
+            "price_current": "",
+            "price_original": ""
+        },
+        {
+            "url": "http://www.michaelkors.com/patch-pocket-suede-dress/_/R-US_MF58VTL2E9?No=0&color=0201",
+            "line": "MICHAEL Michael Kors",
+            "name": "Patch-Pocket Suede Dress",
+            "image": "http://michaelkors.scene7.com/is/image/MichaelKors/MF58VTL2E9-0201_IS?$categoryMedium$",
+            "price_current": "now $556.50",
+            "price_original": "was $795.00"
+        },
+        {
+            "url": "http://www.michaelkors.com/belted-leather-and-ponte-dress/_/R-US_MF58VTP1JL?No=1&color=0001",
+            "line": "MICHAEL Michael Kors",
+            "name": "Belted Leather and Ponte Dress",
+            "image": "http://michaelkors.scene7.com/is/image/MichaelKors/MF58VTP1JL-0001_IS?$categoryMedium$",
+            "price_current": "",
+            "price_original": ""
+        }
+    ],
+    "filterLabel": "price-$500-$1,000"
+}

@@ -1,0 +1,29 @@
+{
+    "products": [
+        {
+            "url": "http://www.michaelkors.com/cowl-back-dress/_/R-US_MH58K74CK1?No=-1&color=0041",
+            "line": "MICHAEL Michael Kors",
+            "name": "Cowl-Back Dress ",
+            "image": "http://michaelkors.scene7.com/is/image/MichaelKors/MH58K74CK1-0041_IS?$categoryMedium$",
+            "price_current": "",
+            "price_original": ""
+        },
+        {
+            "url": "http://www.michaelkors.com/embellished-long-sleeve-dress/_/R-US_MH58VZW1WL?No=0&color=0041",
+            "line": "MICHAEL Michael Kors",
+            "name": "Embellished Long-Sleeve Dress",
+            "image": "http://michaelkors.scene7.com/is/image/MichaelKors/MH58VZW1WL-0041_IS?$categoryMedium$",
+            "price_current": "",
+            "price_original": ""
+        },
+        {
+            "url": "http://www.michaelkors.com/sequined-snake-print-dress/_/R-US_MH58VXC1CF?No=1&color=0041",
+            "line": "MICHAEL Michael Kors",
+            "name": "Sequined Snake-Print Dress ",
+            "image": "http://michaelkors.scene7.com/is/image/MichaelKors/MH58VXC1CF-0041_IS?$categoryMedium$",
+            "price_current": "",
+            "price_original": ""
+        }
+    ],
+    "filterLabel": "color-silver"
+}

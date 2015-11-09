@@ -1,0 +1,61 @@
+{
+    "products": [
+        {
+            "url": "http://www.michaelkors.com/sweater-dress/_/R-US_MH58VXU6R9?No=-1&color=0612",
+            "line": "MICHAEL Michael Kors",
+            "name": "Sweater Dress",
+            "image": "http://michaelkors.scene7.com/is/image/MichaelKors/MH58VXU6R9-0612_IS?$categoryMedium$",
+            "price_current": "",
+            "price_original": ""
+        },
+        {
+            "url": "http://www.michaelkors.com/seamed-fit-and-flare-dress/_/R-US_MF58V9P146?No=0&color=1610",
+            "line": "MICHAEL Michael Kors",
+            "name": "Seamed Fit-and-Flare Dress",
+            "image": "http://michaelkors.scene7.com/is/image/MichaelKors/MF58V9P146-1610_IS?$categoryMedium$",
+            "price_current": "",
+            "price_original": ""
+        },
+        {
+            "url": "http://www.michaelkors.com/polka-dot-silk-shift-dress/_/R-US_MF58VMJ2RL?No=1&color=1610",
+            "line": "MICHAEL Michael Kors",
+            "name": "Polka-Dot Silk Shift Dress",
+            "image": "http://michaelkors.scene7.com/is/image/MichaelKors/MF58VMJ2RL-1610_IS?$categoryMedium$",
+            "price_current": "",
+            "price_original": ""
+        },
+        {
+            "url": "http://www.michaelkors.com/polka-dot-tie-neck-silk-dress/_/R-US_MF58VUB2RR?No=2&color=1610",
+            "line": "MICHAEL Michael Kors",
+            "name": "Polka-Dot Tie-Neck Silk Dress",
+            "image": "http://michaelkors.scene7.com/is/image/MichaelKors/MF58VUB2RR-1610_IS?$categoryMedium$",
+            "price_current": "now $206.50",
+            "price_original": "was $295.00"
+        },
+        {
+            "url": "http://www.michaelkors.com/polka-dot-crepe-dress/_/R-US_MF58VSR2PY?No=3&color=1039",
+            "line": "MICHAEL Michael Kors",
+            "name": "Polka-Dot Crepe Dress",
+            "image": "http://michaelkors.scene7.com/is/image/MichaelKors/MF58VSR2PY-1039_IS?$categoryMedium$",
+            "price_current": "",
+            "price_original": ""
+        },
+        {
+            "url": "http://www.michaelkors.com/drawstring-silk-shirtdress/_/R-US_MF58V9SVY0?No=4&color=1610",
+            "line": "MICHAEL Michael Kors",
+            "name": "Drawstring Silk Shirtdress",
+            "image": "http://michaelkors.scene7.com/is/image/MichaelKors/MF58V9SVY0-1610_IS?$categoryMedium$",
+            "price_current": "now $206.50",
+            "price_original": "was $295.00"
+        },
+        {
+            "url": "http://www.michaelkors.com/polka-dot-jacquard-dress/_/R-US_MF58VU42LY?No=5&color=1610",
+            "line": "MICHAEL Michael Kors",
+            "name": "Polka-Dot Jacquard Dress",
+            "image": "http://michaelkors.scene7.com/is/image/MichaelKors/MF58VU42LY-1610_IS?$categoryMedium$",
+            "price_current": "now $206.50",
+            "price_original": "was $295.00"
+        }
+    ],
+    "filterLabel": "color-red"
+}
