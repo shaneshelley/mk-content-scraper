@@ -1,0 +1,84 @@
+{
+    "shops": [
+        {
+            "label": "The Monogram Shop",
+            "url": "http://www.michaelkors.com/trend/the-monogram-shop/_/N-a202a1"
+        },
+        {
+            "label": "The Signature Shop",
+            "url": "http://www.michaelkors.com/trend/the-signature-shop/_/N-13evff3"
+        },
+        {
+            "label": "Bohemian Chic",
+            "url": "http://www.michaelkors.com/trend/bohemian-chic/_/N-oivg0t"
+        },
+        {
+            "label": "The Beach Edit",
+            "url": "http://www.michaelkors.com/trend/the-beach-edit/_/N-1jsun41"
+        },
+        {
+            "label": "EXCLUSIVELY OURS",
+            "url": "http://www.michaelkors.com/trend/exclusively-ours/_/N-17mrgzo"
+        },
+        {
+            "label": "MICHAEL'S MUST-HAVES",
+            "url": "http://www.michaelkors.com/trend/michael-s-must-haves/_/N-1z140xo"
+        },
+        {
+            "label": "SPRING 2016 COLLECTION",
+            "url": "http://www.michaelkors.com/trend/spring-2016-collection/_/R-cat2890006"
+        }
+    ],
+    "categories": [
+        {
+            "label": "VIEW ALL HANDBAGS",
+            "url": "http://www.michaelkors.com/handbags/view-all-handbags/_/N-283i"
+        },
+        {
+            "label": "NEW ARRIVALS",
+            "url": "http://www.michaelkors.com/handbags/new-arrivals/_/N-283h"
+        },
+        {
+            "label": "TOTES",
+            "url": "http://www.michaelkors.com/handbags/totes/_/N-283j",
+            "subcategories": [
+                {
+                    "label": "TOTES",
+                    "url": "http://www.michaelkors.com/handbags/totes/_/N-283j"
+                }
+            ]
+        },
+        {
+            "label": "SATCHELS",
+            "url": "http://www.michaelkors.com/handbags/satchels/_/N-283k"
+        },
+        {
+            "label": "SHOULDER BAGS",
+            "url": "http://www.michaelkors.com/handbags/shoulder-bags/_/N-283l"
+        },
+        {
+            "label": "CROSSBODIES",
+            "url": "http://www.michaelkors.com/handbags/crossbodies/_/N-283m"
+        },
+        {
+            "label": "CLUTCHES & WRISTLETS",
+            "url": "http://www.michaelkors.com/handbags/clutches-wristlets/_/N-283o"
+        },
+        {
+            "label": "BACKPACKS & LUGGAGE",
+            "url": "http://www.michaelkors.com/handbags/backpacks-luggage/_/N-17nzni1"
+        },
+        {
+            "label": "WALLETS",
+            "url": "http://www.michaelkors.com/handbags/wallets/_/N-283p"
+        },
+        {
+            "label": "TECH",
+            "url": "http://www.michaelkors.com/handbags/tech/_/N-283r"
+        },
+        {
+            "label": "MICHAEL KORS COLLECTION",
+            "url": "http://www.michaelkors.com/handbags/michael-kors-collection/_/N-1olr1hc"
+        }
+    ]
+}

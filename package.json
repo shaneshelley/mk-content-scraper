@@ -5,10 +5,10 @@
   "main"         : "server.js",
   "author"       : "Scotch",
   "dependencies" : {
-    "cheerio"     : "latest",
-    "express"     : "latest",
-    "lodash"      : "latest",
-    "request"     : "latest",
-    "require-dir" : "latest"
+    "cheerio"     : "*",
+    "express"     : "*",
+    "lodash"      : "*",
+    "request"     : "*",
+    "require-dir" : "*"
   }
 }
