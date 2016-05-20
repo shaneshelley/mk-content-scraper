@@ -27,10 +27,9 @@ exports.index = function(req, res) {
         _.each(shops, function(shop){
           var tmp = {};
 
-          tmp.label = $(shop).text();
+          tmp.label = $(shop).text().toLowerCase();
           tmp.url   = $(shop).attr('href');
 
-          console.log()
           categoryNavJSON.shops.push(tmp);
         });
 
@@ -45,7 +44,7 @@ exports.index = function(req, res) {
         _.each(categoryHTML, function(category) {
           var cat = {};
 
-          cat.label = $(category).find('a').attr('title');
+          cat.label = $(category).find('a').attr('title').toLowerCase();
           cat.url   = $(category).find('a').attr('href');
 
           if ($(category).attr('id') === 'subcat_submenu') {
@@ -56,7 +55,7 @@ exports.index = function(req, res) {
             _.each(subcatHTML, function(subcategory){
               var subcat = {};
 
-              subcat.label = $(subcategory).attr('title');
+              subcat.label = $(subcategory).attr('title').toLowerCase();
               subcat.url   = $(subcategory).attr('href');
 
               cat.subcategories.push(subcat);

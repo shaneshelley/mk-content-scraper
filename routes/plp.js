@@ -22,8 +22,8 @@ exports.index = function(req, res) {
       _.each(productsHTML, function(product) {
         var tmp = {};
         tmp.url   					= $(product).find('.product_panel a').attr('href');
-        tmp.brandName 			= $(product).find('.prod_name span').text().toUpperCase();
-        tmp.productName  		= $(product).find('.prod_name h6').text().toUpperCase();
+        tmp.brandName 			= $(product).find('.prod_name span').text().toLowerCase();
+        tmp.productName  		= $(product).find('.prod_name h6').text().toLowerCase();
         tmp.image 					= $(product).find('.product_panel a img').attr('src');
         tmp.priceCurrent 	  = $(product).find('.now_price').text().trim();
         tmp.priceOriginal 	= $(product).find('.was_price').text().trim();
