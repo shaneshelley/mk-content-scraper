@@ -4,11 +4,38 @@ var _				    = require('lodash'),
     fs 			    = require('fs'),
     request     = require('request');
 
-var mainUrl = 'http://www.michaelkors.com/handbags/totes/_/N-283j ';
+// var mainUrl = 'http://www.michaelkors.com/handbags/totes/_/N-283j';
+var mainUrl = 'http://www.michaelkors.com';
+
+var depts = [
+  {
+    label: 'handbags',
+    url  : 'http://www.michaelkors.com/handbags/view-all-handbags/_/N-283i'
+  },
+  {
+    label: 'shoes',
+    url  : 'http://www.michaelkors.com/shoes/view-all-shoes/_/N-28ba'
+  },
+  {
+    label: 'watches',
+    url  : 'http://www.michaelkors.com/watches/view-all-watches/_/N-lrsan0'
+  },
+  {
+    label: 'accessories',
+    url  : 'http://www.michaelkors.com/accessories/view-all-accessories/_/N-1l604f9'
+  },
+  {
+    label: 'gifts',
+    url  : 'http://www.michaelkors.com/gifts/view-all-gifts/_/N-aocq9g'
+  },
+  {
+    label: 'sale',
+    url  : 'http://www.michaelkors.com/sale/view-all-sale/_/N-28zn'
+  },
+]
 
 // define the home page route
 exports.index = function(req, res) {
-
 
   /* Product Grid */
   var scrapeProducts = function(name, $){
@@ -17,9 +44,10 @@ exports.index = function(req, res) {
     $('.products-list').filter(function(){
       var $data = $(this);
 
-      var productsHTML = $data.find('li');
-      console.log(productsHTML);
-      _.each(productsHTML, function(product) {
+      var $products = $data.find('li');
+
+      _.each($products, function(product) {
+        console.log("product: " + product);
         var tmp = {};
         tmp.url   					= $(product).find('.product_panel a').attr('href');
         tmp.brandName 			= $(product).find('.prod_name span').text().toLowerCase();
@@ -31,15 +59,18 @@ exports.index = function(req, res) {
       })
     })
 
-    fs.writeFile('json/plp/handbags/' + name + '.json', JSON.stringify(productsJSON, null, 4), function(err){
+    fs.writeFile('json/plp/' + name + '/view-all.json', JSON.stringify(productsJSON, null, 4), function(err){
       console.log('File successfully written! - Check your project directory for the output.json file');
     });
   }
 
-	request(mainUrl, function(error, response, html){
-    if(!error){
-			var $ = cheerio.load(html);
-      scrapeProducts('totes', $);
-		}
+	_.each(depts, function(dept){
+    request(dept.url, function(error, response, html){
+      if(!error){
+        var $ = cheerio.load(html);
+
+        scrapeProducts(dept.label, $);
+      };
+		});
 	})
 };

@@ -37,9 +37,7 @@ exports.index = function(req, res) {
 			  /* Categories */
 			  var categoryHTML = $data.find('.category_list .subcategory');
 
-        console.log("how many categories? " + $(categoryHTML).length);
-
-				var categories = []
+        var categories = []
 
         _.each(categoryHTML, function(category) {
           var cat = {};
