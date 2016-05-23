@@ -4,13 +4,9 @@ var _				= require('lodash'),
     fs 			= require('fs'),
     request = require('request');
 
-var router = express.Router();
+var url = 'http://www.michaelkors.com/jet-set-large-top-zip-saffiano-leather-tote/_/R-US_30F4GTTT9L?No=-1&color=1161';
 
-// define the home page route
-router.get('/', function(req, res) {
-  // View all bags
-	url = 'http://www.michaelkors.com/selma-medium-saffiano-leather-satchel/_/R-US_30T3SLMS2L?No=3&color=0405';
-
+exports.index = function(req, res) {
 	request(url, function(error, response, html){
 		if(!error){
 			var $ = cheerio.load(html);
@@ -28,25 +24,40 @@ router.get('/', function(req, res) {
         productJSON.description = [
           {
             sectionName     : "Style Notes",
-            sectionContent  : $(this).find('.pdp_description_tabs_1').text();
+            sectionContent  : $(this).find('.pdp_description_tabs_1').text()
           },
 
           {
             sectionName     : "Details",
-            sectionContent  : $(this).find('.pdp_description_tabs_2').text();
+            sectionContent  : $(this).find('.pdp_description_tabs_2').text()
           }
 
-        ]
+        ];
 
-      })
+        productJSON.options = [];
+
+        if ($(this).find('.product_color_labels')) {
+          var option = {
+            optionName : 'Color',
+            options    : []
+          }
+          _.each($(this).find('.color_group_list li a'), function(color){
+            option.options.push($(color).find('img').attr('src'));
+          });
+
+          productJSON.options.push(option);
+        }
+
+        productJSON.price = $(this).find('#productPriceinfo .price').text();
+      });
 		}
 
-		fs.writeFile('json/pdp/handbags/totes/tote.json', JSON.stringify(productJSON, null, 4), function(err){
+    console.log(JSON.stringify(productJSON));
+
+		fs.writeFile('json/pdp/handbags/tote.json', JSON.stringify(productJSON, null, 4), function(err){
     	console.log('File successfully written! - Check your project directory for the output.json file');
     });
 
     res.send('Check your console!')
 	})
-});
-
-module.exports = router;
+};

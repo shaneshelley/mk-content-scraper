@@ -5,11 +5,13 @@ var _				= require('lodash'),
 		cheerio = require('cheerio');
 
 /* Routes */
-var plp 				= require('./routes/plp'),
+var pdp 				= require('./routes/pdp'),
+		plp 				= require('./routes/plp'),
 		categories 	= require('./routes/categories');
 
 var app = express();
 
+app.get('/pdp', pdp.index);
 app.get('/plp', plp.index);
 app.get('/categories', categories.index);
 
