@@ -9,6 +9,10 @@ var mainUrl = 'http://www.michaelkors.com';
 
 var depts = [
   {
+    label: 'women',
+    url  : 'http://www.michaelkors.com/trend/new-arrivals/_/N-1ock9ar'
+  },
+  {
     label: 'handbags',
     url  : 'http://www.michaelkors.com/handbags/view-all-handbags/_/N-283i'
   },
@@ -47,14 +51,15 @@ exports.index = function(req, res) {
       var $products = $data.find('li');
 
       _.each($products, function(product) {
-        console.log("product: " + product);
-        var tmp = {};
-        tmp.url   					= $(product).find('.product_panel a').attr('href');
-        tmp.brandName 			= $(product).find('.prod_name span').text().toLowerCase();
-        tmp.productName  		= $(product).find('.prod_name h6').text().toLowerCase();
-        tmp.image 					= $(product).find('.product_panel a img').attr('src');
-        tmp.priceCurrent 	  = $(product).find('.now_price').text().trim();
-        tmp.priceOriginal 	= $(product).find('.was_price').text().trim();
+        var tmp = {
+          url   					: $(product).find('.product_panel a').attr('href')
+          brandName 			: $(product).find('.prod_name span').text().toLowerCase()
+          productName  		: $(product).find('.prod_name h6').text().toLowerCase()
+          image 					: $(product).find('.product_panel a img').attr('src')
+          priceCurrent 	  : $(product).find('.now_price').text().trim()
+          priceOriginal 	: $(product).find('.was_price').text().trim()
+        };
+
         productsJSON.push(tmp);
       })
     })
